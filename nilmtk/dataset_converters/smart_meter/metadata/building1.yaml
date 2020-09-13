@@ -1,0 +1,68 @@
+instance: 1   # this is the only building in the dataset
+original_name: house_1   # No original name in the dataset
+elec_meters:
+  1: &SMART_METER_whole_house 
+    site_meter: true
+    device_model: SMART_METER_whole_house
+  2: &emonitor
+    submeter_of: 0 
+    device_model: eMonitor
+  3: *emonitor
+  4: *emonitor
+  5: *emonitor
+
+appliances:
+- original_name: washer
+  type: washing machine
+  instance: 1
+  meters: [2]  
+
+- original_name: fridge
+  type: fridge
+  instance: 1
+  meters: [3]  
+
+- original_name: television
+  type: television
+  instance: 1
+  meters: [4]
+ 
+- original_name: kettle
+  type: kettle
+  instance: 1
+  meters: [5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

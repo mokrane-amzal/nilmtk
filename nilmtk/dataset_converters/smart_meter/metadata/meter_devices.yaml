@@ -1,0 +1,15 @@
+SMART_METER_whole_house:
+  model: mains
+  sample_period: 60
+  max_sample_period: 60   
+  measurements:
+  - physical_quantity: power   # power, voltage, energy, current?
+    type: active  # active (real power), reactive or apparent?
+
+eMonitor:
+  model: NONE
+  sample_period: 60
+  max_sample_period: 60  
+  measurements:
+  - physical_quantity: power   # power, voltage, energy, current?
+    type: active   # active (real power), reactive or apparent?

@@ -1,5 +1,5 @@
 # Same as environment.yml without NILMTK and NILM metadata packages
-name: nilmtk-env
+name: nilmtk-env-dev
 channels:
     - conda-forge
 dependencies:

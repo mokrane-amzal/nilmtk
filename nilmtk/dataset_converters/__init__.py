@@ -1,4 +1,5 @@
 from .redd.convert_redd import convert_redd
+from .smart_meter.convert_smart_meter import convert_smart_meter
 from .dred.convert_dred import convert_dred
 from .ukdale.convert_ukdale import convert_ukdale
 from .ampds.convert_ampds import convert_ampds

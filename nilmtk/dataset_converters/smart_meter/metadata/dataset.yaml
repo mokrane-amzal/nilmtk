@@ -1,0 +1,6 @@
+name: SMART_METER
+timezone: Europe/Paris    # Will need to check this.
+number_of_buildings: 1
+related_documents:
+ -https://challengedata.ens.fr/challenges/29
+ 
